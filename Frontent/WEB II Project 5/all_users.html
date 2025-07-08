@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>All User Data</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body onload="loadUsers();"
+    class="bg-gradient-to-br from-purple-100 to-blue-100 min-h-screen flex items-center justify-center p-4">
+
+    <div class="bg-white shadow-2xl rounded-2xl w-full max-w-4xl p-8 border border-blue-300">
+
+        <h2 class="text-2xl font-bold text-center text-blue-600 mb-6">All User Data</h2>
+
+        <div class="overflow-x-auto">
+
+            <table class="min-w-full bg-white border border-gray-200 rounded-lg shadow-md">
+
+                <thead class="bg-blue-100 text-blue-700">
+
+                    <tr>
+
+                        <th class="py-3 px-4 text-left border-b">#</th>
+
+                        <th class="py-3 px-4 text-left border-b">First Name</th>
+
+                        <th class="py-3 px-4 text-left border-b">Last Name</th>
+
+                        <th class="py-3 px-4 text-left border-b">Mobile</th>
+
+                        <th class="py-3 px-4 text-left border-b">Country</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody class="text-gray-700" id="user_data_body">
+
+                </tbody>
+
+            </table>
+
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

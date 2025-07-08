@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Create Account Form</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gradient-to-br from-purple-100 to-blue-100 min-h-screen flex items-center justify-center p-4">
+
+    <div class="bg-white shadow-2xl rounded-2xl w-full max-w-md p-8 border border-blue-300">
+
+        <h2 class="text-2xl font-bold text-center text-blue-600 mb-6">Create New Account</h2>
+
+        <form class="space-y-5">
+
+            <div>
+
+                <label class="block text-sm font-medium text-gray-700 mb-1">Mobile</label>
+
+                <div
+                    class="flex items-center border rounded-lg px-3 py-2 focus-within:ring-2 focus-within:ring-blue-400">
+
+                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.12.45 2.33.69 3.48.69a1 1 0 011 1V20a1 1 0 01-1 1C9.39 21 3 14.61 3 6a1 1 0 011-1h3.5a1 1 0 011 1c0 1.15.24 2.36.69 3.48a1 1 0 01-.21 1.11l-2.2 2.2z" />
+                    </svg>
+
+                    <input type="tel" placeholder="Enter Mobile Number" class="w-full outline-none" id="mobile" />
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <label class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+                
+                <div
+                    class="flex items-center border rounded-lg px-3 py-2 focus-within:ring-2 focus-within:ring-blue-400">
+
+                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24">
+                        <path d="M12 12c2.21 0 4-1.79 4-4S14.21 4 12 4s-4 1.79-4 4 1.79 4 4 4z" />
+                        <path d="M4 20c0-2.21 3.58-4 8-4s8 1.79 8 4v1H4v-1z" />
+                    </svg>
+
+                    <input type="text" placeholder="Enter First Name" class="w-full outline-none" id="firstName" />
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <label class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+
+                <div
+                    class="flex items-center border rounded-lg px-3 py-2 focus-within:ring-2 focus-within:ring-blue-400">
+
+                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24">
+                        <path d="M12 12c2.21 0 4-1.79 4-4S14.21 4 12 4s-4 1.79-4 4 1.79 4 4 4z" />
+                        <path d="M4 20c0-2.21 3.58-4 8-4s8 1.79 8 4v1H4v-1z" />
+                    </svg>
+
+                    <input type="text" placeholder="Enter Last Name" class="w-full outline-none" id="lastName" />
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <label class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+
+                <div
+                    class="flex items-center border rounded-lg px-3 py-2 focus-within:ring-2 focus-within:ring-blue-400">
+
+                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24">
+                        <path d="M12 15c1.1 0 2-.9 2-2v-1a2 2 0 00-4 0v1c0 1.1.9 2 2 2z" />
+                        <path d="M17 8V6a5 5 0 00-10 0v2" />
+                        <rect x="6" y="8" width="12" height="12" rx="2" />
+                    </svg>
+
+                    <input type="password" placeholder="Enter Password" class="w-full outline-none" id="password" />
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <label class="block text-sm font-medium text-gray-700 mb-1">Country</label>
+
+                <div
+                    class="flex items-center border rounded-lg px-3 py-2 focus-within:ring-2 focus-within:ring-blue-400 bg-white">
+
+                    <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" stroke-width="1.5"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M12 2C8.1 2 5 5.1 5 9c0 4.4 6.3 11.3 6.6 11.6.2.2.6.2.8 0 .3-.3 6.6-7.2 6.6-11.6 0-3.9-3.1-7-7-7z" />
+                        <circle cx="12" cy="9" r="2.5" />
+                    </svg>
+
+                    <select class="w-full outline-none bg-transparent text-gray-700" id="country">
+
+                        <option value="">Select Country</option>
+
+                        <option value="LK">Sri Lanka</option>
+
+                        <option value="IN">India</option>
+
+                        <option value="US">United States</option>
+
+                        <option value="UK">United Kingdom</option>
+
+                        <option value="AU">Australia</option>
+
+                        <option value="CA">Canada</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+            
+            <div>
+
+                <button onclick="createNewAccount();" type="button"
+                    class="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
+                    Create New Account
+                </button>
+
+            </div>
+
+        </form>
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
